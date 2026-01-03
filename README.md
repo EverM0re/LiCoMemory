@@ -75,9 +75,9 @@ Subset breakdowns also confirm LiCoMemory's consistent superiority across all ta
 
 <img src="figures/result2.png">
 
-For more detailed experimental results, check out our paper [here](https://arxiv.org/abs/2511.01448)!
+<!-- For more detailed experimental results, check out our paper [here](https://arxiv.org/abs/2511.01448)! -->
 
-## 📝 Citation
+<!-- ## 📝 Citation
 
 If you use this code in your research, please cite:
 
@@ -92,4 +92,4 @@ If you use this code in your research, please cite:
 
 ## Acknowledgements
 
-We acknowledge these excellent works for providing open-source code and inspiration: [Zep](https://github.com/getzep/zep), [Mem0](https://github.com/mem0ai/mem0), [A-Mem](https://github.com/agiresearch/A-mem), [LoCoMo](https://github.com/snap-research/locomo), [LongMemEval](https://github.com/xiaowu0162/LongMemEval), [MemOS](https://github.com/usememos/memos).
+We acknowledge these excellent works for providing open-source code and inspiration: [Zep](https://github.com/getzep/zep), [Mem0](https://github.com/mem0ai/mem0), [A-Mem](https://github.com/agiresearch/A-mem), [LoCoMo](https://github.com/snap-research/locomo), [LongMemEval](https://github.com/xiaowu0162/LongMemEval), [MemOS](https://github.com/usememos/memos). -->
