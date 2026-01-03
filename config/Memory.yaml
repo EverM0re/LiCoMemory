@@ -1,0 +1,75 @@
+index_name: 
+data_type: LOCOMO  # Dataset type: "LongmemEval" or "LOCOMO"
+data_root: /your/dataroot
+dataset_name: 
+working_dir: /your/workingdirectory
+################################# Embedding #################################
+embedding:
+  api_type: "hf"
+  api_key: "your_apikey"
+  model: "your/model"
+  cache_dir: "/your/cachedirectory"
+  dimensions: 1024
+  max_token_size: 8102
+  embed_batch_size: 128
+  embedding_func_max_async: 10
+#################################### LLM ####################################
+llm:
+  api_type: "open_llm"
+  model: 'your/model'
+  base_url: "your/baseurl"
+  api_key: "your_apikey"
+  
+  max_token: 131072
+  temperature: 0.0
+  enable_concurrent: True      
+  max_concurrent: 16
+  timeout: 600
+
+query_llm:
+  api_type: "openai"
+  base_url: "your/baseurl"
+  model: 'your/model'
+  api_key: "your_apikey"  
+  max_token: 131072
+  temperature: 0.2
+  timeout: 600                  
+################################### Chunk ###################################
+chunk:
+  chunk_token_size: 1200
+  chunk_overlap_token_size: 100
+  token_model: your/model
+  dialogue_input: True
+################################# Dialogue #################################
+dialog:
+  enable_turn_pairing: True           
+  include_session_metadata: True      
+  validate_dialog_format: True        
+################################# Graph #################################
+graph:
+  graph_type: dynamic_memory
+  force: True              
+  add: False   
+  entity_merge_threshold: 0.85
+  relationship_merge_threshold: 1
+################################# Retriever #################################
+retriever:
+  top_k: 5  
+  top_k_triples: 20
+  top_chunks: 15           
+  enable_summary: True            
+  top_summary: 1      
+  enable_visual: False       
+  top_visual: 15
+  enable_full: True
+  enable_sessiontime: True
+
+  enable_CogniRank: False
+  summary_weight: 0.2 
+  rerank_k: 0.1          
+################################# Evaluation #################################
+evaluation:
+  enable_llm_eval: True
+  eval_model: 'your/model'
+  eval_temperature: 0.0
+  eval_max_tokens: 10
