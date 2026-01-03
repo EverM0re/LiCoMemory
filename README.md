@@ -57,6 +57,7 @@ We have incorporated several baseline methods:
 | Mem0       |[Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/abs/2504.19413)| [Mem0](https://github.com/mem0ai/mem0)    |
 | Zep       |[Zep: A Temporal Knowledge Graph Architecture for Agent Memory](https://arxiv.org/abs/2501.13956)| [Zep](https://github.com/getzep/zep)    |
 | MemOS       |[MemOS: A Memory OS for AI System](https://arxiv.org/abs/2507.03724)| [MemOS](https://github.com/usememos/memos)    |
+| MemoryBank       |[MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://ojs.aaai.org/index.php/AAAI/article/view/29946)| [MemoryBank](https://github.com/zhongwanjun/MemoryBank-SiliconFriend)    |
 
 The following datasets are utilized for testing:
 
@@ -75,21 +76,6 @@ Subset breakdowns also confirm LiCoMemory's consistent superiority across all ta
 
 <img src="figures/result2.png">
 
-<!-- For more detailed experimental results, check out our paper [here](https://arxiv.org/abs/2511.01448)! -->
-
-<!-- ## 📝 Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{huang2025licomemory,
-  title={LiCoMemory: Lightweight and Cognitive Agentic Memory for Efficient Long-Term Reasoning},
-  author={Huang, Zhengjun and Tian, Zhoujin and Guo, Qintian and Zhang, Fangyuan and Zhou, Yingli and Jiang, Di and Zhou, Xiaofang},
-  journal={arXiv preprint arXiv:2511.01448},
-  year={2025}
-}
-```
-
 ## Acknowledgements
 
-We acknowledge these excellent works for providing open-source code and inspiration: [Zep](https://github.com/getzep/zep), [Mem0](https://github.com/mem0ai/mem0), [A-Mem](https://github.com/agiresearch/A-mem), [LoCoMo](https://github.com/snap-research/locomo), [LongMemEval](https://github.com/xiaowu0162/LongMemEval), [MemOS](https://github.com/usememos/memos). -->
+We acknowledge these excellent works for providing open-source code and inspiration: [Zep](https://github.com/getzep/zep), [Mem0](https://github.com/mem0ai/mem0), [A-Mem](https://github.com/agiresearch/A-mem), [LoCoMo](https://github.com/snap-research/locomo), [LongMemEval](https://github.com/xiaowu0162/LongMemEval), [MemOS](https://github.com/usememos/memos), [MemoryBank](https://github.com/zhongwanjun/MemoryBank-SiliconFriend).
