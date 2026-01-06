@@ -29,7 +29,7 @@ Format each relationship as ("relationship"|<create_time>|<session_id>|<source_e
 Text:
 'text': 'User: I've been thinking about starting my own business as I graudated from business administration and I was wondering if you could recommend some inspiring podcasts about entrepreneurship, aside from \"How I Built This\" which I finished this Monday on my sister's recommendation.\nAssistant: Congrats on starting your business! An inspiring podcast similar to "How I Built This" is **Side Hustle School** - Short tips to grow side gigs into full-time.\nA single spark can launch bold goals. Good luck!',
 'session_id': 'yywfIrx_0',
-'session_time': '2023/05/20 (Sat) 02:21',
+'session_time': '2023/01/20 (Sat) 02:21',
 
 ################
 ("entity"|User|person)##
@@ -42,15 +42,15 @@ Text:
 ("entity"|January 15th|time)##
 ("entity"|Business|concept)##
 ("entity"|Podcast|object)##
-("relationship"|2023/05/20|yywfIrx_0|User|Business Administration|has educational background|10)##
-("relationship"|2023/05/20|yywfIrx_0|User|Entrepreneurship|interested in|9)##
-("relationship"|2023/05/20|yywfIrx_0|User|How I Built This|finished listening to|8)##
-("relationship"|2023/05/20|yywfIrx_0|User|Sister|received recommendation from|9)##
-("relationship"|2023/05/20|yywfIrx_0|How I Built This|January 15th|finished on|7)##
-("relationship"|2023/05/20|yywfIrx_0|User|Business|planning to start|8)##
-("relationship"|2023/05/20|yywfIrx_0|User|Podcast|interested in|7)##
-("relationship"|2023/05/20|yywfIrx_0|Assistant|Side Hustle School|recommended|5)##
-("relationship"|2023/05/20|yywfIrx_0|How I Built This|Side Hustle School|Similar to|7)##
+("relationship"|2023/01/20|yywfIrx_0|User|Business Administration|has educational background|10)##
+("relationship"|2023/01/20|yywfIrx_0|User|Entrepreneurship|interested in|9)##
+("relationship"|2023/01/20|yywfIrx_0|User|How I Built This|finished listening to|8)##
+("relationship"|2023/01/20|yywfIrx_0|User|Sister|received recommendation from|9)##
+("relationship"|2023/01/20|yywfIrx_0|How I Built This|January 15th|finished on|7)##
+("relationship"|2023/01/20|yywfIrx_0|User|Business|planning to start|8)##
+("relationship"|2023/01/20|yywfIrx_0|User|Podcast|interested in|7)##
+("relationship"|2023/01/20|yywfIrx_0|Assistant|Side Hustle School|recommended|5)##
+("relationship"|2023/01/20|yywfIrx_0|How I Built This|Side Hustle School|Similar to|7)##
 
 ##END##
 
